@@ -3,7 +3,7 @@
 // @description  test for auto updating
 // @namespace    http://tampermonkey.net/
 // @author       Amy
-// @version      2024.07.08.01
+// @version      2024.07.08.02
 // @updateURL    https://github.com/backto1997/tamper-monkey-test/raw/main/script.user.js
 // @downloadURL  https://github.com/backto1997/tamper-monkey-test/raw/main/script.user.js
 // @match        https://app2-staging.ease-x.com/*
@@ -35,7 +35,7 @@
             },
             responseType: 'json',
             onload: function(res) {
-                console.log(res.response);
+                console.log('res.response:', res.response);
             }
         });
     }
