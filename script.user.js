@@ -1,15 +1,17 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Test Script
+// @description  test for auto updating
 // @namespace    http://tampermonkey.net/
+// @author       Amy
 // @version      2024.07.08.01
-// @description  try to take over the world!
-// @author       You
+// @updateURL    https://github.com/backto1997/tamper-monkey-test/raw/main/script.user.js
+// @downloadURL  https://github.com/backto1997/tamper-monkey-test/raw/main/script.user.js
 // @match        https://app2-staging.ease-x.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @run-at       document-idle
 // @grant        window.onurlchange
 // @grant        GM_xmlhttpRequest
 // @connect      reqres.in
-// @run-at       document-idle
 // ==/UserScript==
 
 (async function() {
